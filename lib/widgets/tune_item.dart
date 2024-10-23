@@ -15,7 +15,7 @@ class TuneItem extends StatelessWidget {
           decoration: BoxDecoration(
             color: Color(0XFFFAF9F6),
             borderRadius: BorderRadius.only(
-              bottomLeft: Radius.circular(16),
+              topRight: Radius.circular(16),
               bottomRight: Radius.circular(16),
             ),
             border: Border.all(
@@ -23,16 +23,16 @@ class TuneItem extends StatelessWidget {
               width: 1.0,
             ),
           ),
-          child: Column(
+          child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                height: 300,
-                width: 70,
+                height: 70,
+                width: 170,
                 decoration: BoxDecoration(
                   color: Colors.black,
                   borderRadius: BorderRadius.only(
-                    bottomLeft: Radius.circular(16),
+                    topRight: Radius.circular(16),
                     bottomRight: Radius.circular(16),
                   ),
                 ),

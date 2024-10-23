@@ -20,7 +20,7 @@ class TuneView extends StatelessWidget {
           title: Text('Piano App'),
           backgroundColor: Colors.grey,
         ),
-        body: Row(
+        body: Column(
           children: tunes
               .map(
                 (e) => TuneItem(tune: e),
